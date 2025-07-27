@@ -1,19 +1,5 @@
 @extends('web.Frontend.app')
 @section('title', 'Find Houses - Home')
-@push('style')
-    <style>
-        .hd-white .header-widget.sign-in a,
-        .hd-white .show-lang,
-        .hd-white .show-lang .fa-caret-down.arrlan {
-            color: #fff !important;
-        }
-
-        .hd-white .right-side.sign {
-            border-left: 1px solid #fff !important;
-            border-right: 1px solid #fff !important;
-        }
-    </style>
-@endpush
 @section('content')
     <!-- START SECTION HEADINGS -->
     <!-- Header Container
