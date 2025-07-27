@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('properties', function (Blueprint $table) {
             $table->id();
+            $table->string('property_id')->unique();
             $table->string('title');
             $table->text('description');
             $table->enum('status', ['rent', 'sale'])->comment('rent|sale');

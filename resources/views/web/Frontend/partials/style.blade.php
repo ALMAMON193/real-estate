@@ -1,6 +1,5 @@
 <!-- FAVICON -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i%7CMontserrat:500,600,800" rel="stylesheet">
 
@@ -28,12 +27,12 @@
 <link rel="stylesheet" id="color" href="{{ asset('Frontend/css/colors/pink.css') }}">
 
 <!-- OPTIONAL: Leaflet Maps -->
-<link rel="stylesheet" href="{{ asset('css/leaflet.css') }}">
-<link rel="stylesheet" href="{{ asset('css/leaflet-gesture-handling.min.css') }}">
-<link rel="stylesheet" href="{{ asset('css/leaflet.markercluster.css') }}">
-<link rel="stylesheet" href="{{ asset('css/leaflet.markercluster.default.css') }}">
+<link rel="stylesheet" href="{{ asset('Frontend/css/leaflet.css') }}">
+<link rel="stylesheet" href="{{ asset('Frontend/css/leaflet-gesture-handling.min.css') }}">
+<link rel="stylesheet" href="{{ asset('Frontend/css/leaflet.markercluster.css') }}">
+<link rel="stylesheet" href="{{ asset('Frontend/css/leaflet.markercluster.default.css') }}">
 
 <!-- OPTIONAL: Date & Time Pickers -->
-<link rel="stylesheet" href="{{ asset('css/timedropper.css') }}">
-<link rel="stylesheet" href="{{ asset('css/datedropper.css') }}">
+<link rel="stylesheet" href="{{ asset('Frontend/css/timedropper.css') }}">
+<link rel="stylesheet" href="{{ asset('Frontend/css/datedropper.css') }}">
 @stack('style')
